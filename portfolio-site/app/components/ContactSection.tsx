@@ -33,19 +33,20 @@ export default function ContactSection() {
 									/>
 									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
 								</svg>
-								<span>San Francisco, CA</span>
+								<span>Jeddah, SA</span>
+								<span>Southampton, UK</span>
 							</div>
 							<p className="text-green-500 mt-8 mb-2">$ contact --email</p>
 							<motion.a
-								href="mailto:alex.chen@example.com"
+								href="mailto:fadelbantan1@gmail.com"
 								whileHover={{ scale: 1.02 }}
 								className="inline-block px-6 py-3 bg-green-500/10 text-green-400 rounded-lg border border-green-500/20 hover:bg-green-500/20 transition-colors"
 							>
-								alex.chen@example.com
+								fadelbantan1@gmail.com
 							</motion.a>
 							<p className="text-green-500 mt-8 mb-2">$ cat resume.pdf</p>
 							<motion.a
-								href="/path-to-resume.pdf"
+								href="/Fadils-CV.pdf"
 								target="_blank"
 								rel="noopener noreferrer"
 								whileHover={{ scale: 1.02 }}
@@ -100,7 +101,7 @@ export default function ContactSection() {
 									</div>
 									<div>
 										<p className="font-semibold text-gray-200">X</p>
-										<p className="text-sm text-gray-400">@alexchen</p>
+										<p className="text-sm text-gray-400">@fadelbantan</p>
 									</div>
 								</motion.a>
 							</div>
