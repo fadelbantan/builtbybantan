@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Your Name] - Backend Developer',
+	title: 'Fadil Bantan - Software Engineer',
 	description:
 		'Welcome to my portfolio! I am a passionate backend developer specializing in building scalable server architectures, robust APIs, and high-performance distributed systems. With expertise in cloud infrastructure and database optimization, I create efficient and reliable backend solutions.',
 	keywords: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 		'Cloud Computing',
 		'Microservices',
 		'DevOps',
-		'[Your Name]',
+		'Fadil Bantan',
 		'Node.js',
 		'Python',
 		'Java',
@@ -33,19 +33,19 @@ export const metadata: Metadata = {
 		'System Design',
 		'Backend Architecture',
 	],
-	authors: [{ name: '[Your Name]' }],
-	creator: '[Your Name]',
+	authors: [{ name: 'Fadil Bantan' }],
+	creator: 'Fadil Bantan',
 	openGraph: {
-		title: '[Your Name] - Backend Developer Portfolio',
+		title: 'Fadil Bantan - Software Engineer',
 		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
-		url: 'https://your-domain.com',
-		siteName: '[Your Name] - Portfolio',
+		url: 'https://builtbybantan.com',
+		siteName: 'Fadil Bantan - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: '[Your Name] - Backend Developer Portfolio',
+				alt: 'Fadil Bantan - Software Engineer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: '[Your Name] - Backend Developer',
+		title: 'Fadil Bantan - Software Engineer',
 		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
-		creator: '@yourusername',
+		creator: '@fadelbantan',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
