@@ -21,7 +21,7 @@ export default function ContactSection() {
 						</div>
 						<div className="font-mono">
 							<p className="text-green-500 mb-2">$ contact --info</p>
-							<h2 className="text-3xl font-bold mb-8 text-gray-200">Say Hi — I'm Always Online</h2>
+							<h2 className="text-3xl font-bold mb-8 text-gray-200">Say Hi! I&apos;m Always Online</h2>
 							<p className="text-green-500 mb-2">$ location --current</p>
 							<div className="text-gray-300 space-y-1">
 								<div className="flex items-center gap-2">
