@@ -1,5 +1,5 @@
 [build]
-  base = "Portfolio"
+  base = "portfolio-site"
   command = "npm run build"
   publish = ".next"
 
