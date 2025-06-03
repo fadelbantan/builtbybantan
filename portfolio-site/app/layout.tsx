@@ -40,14 +40,14 @@ export const metadata: Metadata = {
 		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
 		url: 'https://builtbybantan.com',
 		siteName: 'Fadil Bantan - Portfolio',
-		images: [
-			{
-				url: '/og-image.jpg',
-				width: 1200,
-				height: 630,
-				alt: 'Fadil Bantan - Software Engineer Portfolio',
-			},
-		],
+                images: [
+                        {
+                                url: '/laptop.jpg',
+                                width: 1200,
+                                height: 630,
+                                alt: 'Fadil Bantan - Software Engineer Portfolio',
+                        },
+                ],
 		locale: 'en_US',
 		type: 'website',
 	},
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
 		title: 'Fadil Bantan - Software Engineer',
 		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
 		creator: '@fadelbantan',
-		images: ['/og-image.jpg'],
+                images: ['/laptop.jpg'],
 	},
 	robots: {
 		index: true,
