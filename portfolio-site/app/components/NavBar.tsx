@@ -2,7 +2,19 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X } from 'lucide-react'; // install lucide-react icons
+// Inline SVG icons to avoid external dependencies
+
+const MenuIcon = () => (
+  <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+);
+
+const CloseIcon = () => (
+  <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M6 6l12 12M6 18L18 6" />
+  </svg>
+);
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +23,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-[#1A1A1A] bg-opacity-90 backdrop-blur border-b border-gray-800">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         <button onClick={() => setIsOpen(!isOpen)} className="text-white">
-          {isOpen ? <X size={28} /> : <Menu size={28} />}
+          {isOpen ? <CloseIcon /> : <MenuIcon />}
         </button>
 
         <p className="text-xl font-mono font-bold text-green-400">builtbybantan</p>
