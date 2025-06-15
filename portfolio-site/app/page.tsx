@@ -14,6 +14,7 @@ export default function BackendPortfolio() {
 			<SystemArchitecture />
 			{/* <TechnicalMetrics /> */}
 			<ContactSection />
+			<ScrollDownIndicator /> 
 		</main>
 	);
 }
