@@ -16,7 +16,8 @@ export default function SystemArchitecture() {
 				</motion.h2>
 
 				<div className="grid grid-cols-1 gap-8">
-					{/* TetrECS Project */}
+
+					{/* TetrECS */}
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
@@ -26,18 +27,20 @@ export default function SystemArchitecture() {
 					>
 						<h3 className="text-2xl font-bold mb-4">TetrECS</h3>
 						<p className="text-gray-400 mb-6">
-							A fast-paced, multiplayer Tetris-style game with rich JavaFX graphics, sound effects, live scoring, and networked gameplay.
+							A fully-featured Tetris-inspired game built in JavaFX, 
 						</p>
 						<div className="mb-6">
 							<h4 className="text-lg font-semibold mb-2">Key Features:</h4>
 							<ul className="list-disc list-inside space-y-2 text-gray-300">
-								<li>Multiplayer system with lobbies and chat</li>
-								<li>Scoring, levels, lives, and combo multipliers</li>
-								<li>JavaFX-based UI with sound, animation, and custom components</li>
+								<li>Multiplayer system with real-time lobbies and chat</li>
+								<li>Dynamic scoring, levels, lives, combo multipliers, and piece storage</li>
+								<li>JavaFX-based UI with animations, sound effects, transitions, and scene controllers</li>
+								<li>Online leaderboard integration and file-based score persistence</li>
+								<li>Built from provided skeleton code and extended with custom components and architecture</li>
 							</ul>
 						</div>
 						<div className="flex flex-wrap gap-2 mb-4">
-							{['Java', 'JavaFX', 'Maven', 'OOP', 'Multiplayer', 'Game Loop'].map((tech, i) => (
+							{['Java', 'JavaFX', 'Maven', 'Multiplayer', 'Game Loop', 'Networking', 'OOP'].map((tech, i) => (
 								<span key={i} className="text-sm px-3 py-1 bg-blue-500/10 rounded-full border border-blue-500/20">
 									{tech}
 								</span>
@@ -55,8 +58,126 @@ export default function SystemArchitecture() {
 						</div>
 					</motion.div>
 
-					{/* Add more projects below like this 👇 */}
-					{/* <motion.div>...</motion.div> */}
+					{/* Hangman */}
+					<motion.div
+						initial={{ opacity: 0, y: 20 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						viewport={{ once: true }}
+						transition={{ duration: 0.3 }}
+						className="bg-gray-900/50 rounded-xl p-6 backdrop-blur-sm border border-gray-800"
+					>
+						<h3 className="text-2xl font-bold mb-4">Java Hangman Game</h3>
+						<p className="text-gray-400 mb-6">
+							A terminal-based Hangman game developed for Object Oriented Programming coursework.
+						</p>
+						<div className="mb-6">
+							<h4 className="text-lg font-semibold mb-2">Key Features:</h4>
+							<ul className="list-disc list-inside space-y-2 text-gray-300">
+								<li>File I/O to load categorized word lists</li>
+								<li>Custom class hierarchy using inheritance, interfaces, and polymorphism</li>
+								<li>Dynamic difficulty scaling and word randomization</li>
+								<li>Encapsulated game logic with error handling and state resets</li>
+							</ul>
+						</div>
+						<div className="flex flex-wrap gap-2 mb-4">
+							{['Java', 'OOP', 'Inheritance', 'Polymorphism', 'File I/O', 'Interfaces'].map((tech, i) => (
+								<span key={i} className="text-sm px-3 py-1 bg-blue-500/10 rounded-full border border-blue-500/20">
+									{tech}
+								</span>
+							))}
+						</div>
+						<div className="flex gap-4">
+							<a
+								href="https://github.com/fadelbantan/Hangman"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-green-400 underline hover:text-green-300"
+							>
+								View on GitHub
+							</a>
+						</div>
+					</motion.div>
+
+					{/* MazeRunner */}
+					<motion.div
+						initial={{ opacity: 0, y: 20 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						viewport={{ once: true }}
+						transition={{ duration: 0.3 }}
+						className="bg-gray-900/50 rounded-xl p-6 backdrop-blur-sm border border-gray-800"
+					>
+						<h3 className="text-2xl font-bold mb-4">MazeRunner</h3>
+						<p className="text-gray-400 mb-6">
+							A Python maze exploration tool built for search algorithms coursework.
+						</p>
+						<div className="mb-6">
+							<h4 className="text-lg font-semibold mb-2">Key Features:</h4>
+							<ul className="list-disc list-inside space-y-2 text-gray-300">
+								<li>Full support for BFS, DFS, Flood Fill and search visualizations</li>
+								<li>Maze input/output from XML using ElementTree parsing</li>
+								<li>Pathfinding accuracy verification & full log generation</li>
+								<li>Statistics tracking: nodes visited, path length, exploration time</li>
+							</ul>
+						</div>
+						<div className="flex flex-wrap gap-2 mb-4">
+							{['Python', 'Algorithms', 'BFS', 'DFS', 'XML Parsing', 'Search'].map((tech, i) => (
+								<span key={i} className="text-sm px-3 py-1 bg-blue-500/10 rounded-full border border-blue-500/20">
+									{tech}
+								</span>
+							))}
+						</div>
+						<div className="flex gap-4">
+							<a
+								href="https://github.com/fadelbantan/ECS-Maze-Runner"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-green-400 underline hover:text-green-300"
+							>
+								View on GitHub
+							</a>
+						</div>
+					</motion.div>
+
+					{/* Money Tracker App */}
+					<motion.div
+						initial={{ opacity: 0, y: 20 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						viewport={{ once: true }}
+						transition={{ duration: 0.3 }}
+						className="bg-gray-900/50 rounded-xl p-6 backdrop-blur-sm border border-gray-800"
+					>
+						<h3 className="text-2xl font-bold mb-4">Money Tracker App</h3>
+						<p className="text-gray-400 mb-6">
+							A React Native personal finance app project designed for expense tracking.
+						</p>
+						<div className="mb-6">
+							<h4 className="text-lg font-semibold mb-2">Key Features:</h4>
+							<ul className="list-disc list-inside space-y-2 text-gray-300">
+								<li>Calculator-based transaction entry</li>
+								<li>Balance validation with non-negative protection</li>
+								<li>Scrollable history, statistics tab, and multi-tab navigation</li>
+								<li>Clean component-based architecture ready for scaling</li>
+							</ul>
+						</div>
+						<div className="flex flex-wrap gap-2 mb-4">
+							{['React Native', 'JavaScript', 'State Management', 'Mobile App', 'UI/UX'].map((tech, i) => (
+								<span key={i} className="text-sm px-3 py-1 bg-blue-500/10 rounded-full border border-blue-500/20">
+									{tech}
+								</span>
+							))}
+						</div>
+						<div className="flex gap-4">
+							<a
+								href="https://github.com/fadelbantan/MoneyTracker"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-green-400 underline hover:text-green-300"
+							>
+								View on GitHub
+							</a>
+						</div>
+					</motion.div>
+
 				</div>
 			</div>
 		</section>
