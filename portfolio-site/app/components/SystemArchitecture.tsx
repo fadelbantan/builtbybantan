@@ -15,7 +15,7 @@ export default function SystemArchitecture() {
 					Projects
 				</motion.h2>
 
-				<div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+				<div className="grid grid-cols-1 gap-8">
 
 					{/* TetrECS */}
 					<motion.div
@@ -160,7 +160,7 @@ export default function SystemArchitecture() {
 							</ul>
 						</div>
 						<div className="flex flex-wrap gap-2 mb-4">
-							{['React Native', 'JavaScript', 'UI/UX', 'State Management', 'Mobile App'].map((tech, i) => (
+							{['React Native', 'JavaScript', 'UI/UX' ,'State Management', 'Mobile App'].map((tech, i) => (
 								<span key={i} className="text-sm px-3 py-1 bg-blue-500/10 rounded-full border border-blue-500/20">
 									{tech}
 								</span>
