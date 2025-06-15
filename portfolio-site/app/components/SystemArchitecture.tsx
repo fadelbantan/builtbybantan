@@ -98,7 +98,7 @@ export default function SystemArchitecture() {
 						</div>
 					</motion.div>
 
-					{/* MazeRunner */}
+					{/* Mazerunner */}
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
@@ -106,7 +106,7 @@ export default function SystemArchitecture() {
 						transition={{ duration: 0.3 }}
 						className="bg-gray-900/50 rounded-xl p-6 backdrop-blur-sm border border-gray-800"
 					>
-						<h3 className="text-2xl font-bold mb-4">MazeRunner</h3>
+						<h3 className="text-2xl font-bold mb-4">Mazerunner</h3>
 						<p className="text-gray-400 mb-6">
 							A Python maze exploration tool built for search algorithms coursework.
 						</p>
