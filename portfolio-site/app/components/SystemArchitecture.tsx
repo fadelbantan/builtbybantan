@@ -27,16 +27,16 @@ export default function SystemArchitecture() {
 					>
 						<h3 className="text-2xl font-bold mb-4">TetrECS</h3>
 						<p className="text-gray-400 mb-6">
-							A fully-featured Tetris-inspired game built in JavaFX, 
+							A fully-featured Tetris-inspired game built in Java & JavaFX.
 						</p>
 						<div className="mb-6">
 							<h4 className="text-lg font-semibold mb-2">Key Features:</h4>
 							<ul className="list-disc list-inside space-y-2 text-gray-300">
-								<li>Multiplayer system with real-time lobbies and chat</li>
+								<li>Local multiplayer system with real-time lobbies and chat</li>
 								<li>Dynamic scoring, levels, lives, combo multipliers, and piece storage</li>
-								<li>JavaFX-based UI with animations, sound effects, transitions, and scene controllers</li>
+								<li>JavaFX-based User Interface with animations, sound effects, transitions, and scene controllers</li>
 								<li>Online leaderboard integration and file-based score persistence</li>
-								<li>Built from provided skeleton code and extended with custom components and architecture</li>
+								<li>Built from provided skeleton code, then extended with custom components and architecture</li>
 							</ul>
 						</div>
 						<div className="flex flex-wrap gap-2 mb-4">
@@ -66,9 +66,9 @@ export default function SystemArchitecture() {
 						transition={{ duration: 0.3 }}
 						className="bg-gray-900/50 rounded-xl p-6 backdrop-blur-sm border border-gray-800"
 					>
-						<h3 className="text-2xl font-bold mb-4">Java Hangman Game</h3>
+						<h3 className="text-2xl font-bold mb-4">Hangman</h3>
 						<p className="text-gray-400 mb-6">
-							A terminal-based Hangman game developed for Object Oriented Programming coursework.
+							A terminal-based Java Hangman game developed for Object Oriented Programming coursework.
 						</p>
 						<div className="mb-6">
 							<h4 className="text-lg font-semibold mb-2">Key Features:</h4>
@@ -114,7 +114,7 @@ export default function SystemArchitecture() {
 							<h4 className="text-lg font-semibold mb-2">Key Features:</h4>
 							<ul className="list-disc list-inside space-y-2 text-gray-300">
 								<li>Full support for BFS, DFS, Flood Fill and search visualizations</li>
-								<li>Maze input/output from XML using ElementTree parsing</li>
+								<li>Maze I/O from XML using ElementTree parsing</li>
 								<li>Pathfinding accuracy verification & full log generation</li>
 								<li>Statistics tracking: nodes visited, path length, exploration time</li>
 							</ul>
@@ -146,7 +146,7 @@ export default function SystemArchitecture() {
 						transition={{ duration: 0.3 }}
 						className="bg-gray-900/50 rounded-xl p-6 backdrop-blur-sm border border-gray-800"
 					>
-						<h3 className="text-2xl font-bold mb-4">Money Tracker App</h3>
+						<h3 className="text-2xl font-bold mb-4">Expense Tracker</h3>
 						<p className="text-gray-400 mb-6">
 							A React Native personal finance app project designed for expense tracking.
 						</p>
@@ -160,7 +160,7 @@ export default function SystemArchitecture() {
 							</ul>
 						</div>
 						<div className="flex flex-wrap gap-2 mb-4">
-							{['React Native', 'JavaScript', 'State Management', 'Mobile App', 'UI/UX'].map((tech, i) => (
+							{['React Native', 'JavaScript', 'UI/UX' ,'State Management', 'Mobile App'].map((tech, i) => (
 								<span key={i} className="text-sm px-3 py-1 bg-blue-500/10 rounded-full border border-blue-500/20">
 									{tech}
 								</span>
