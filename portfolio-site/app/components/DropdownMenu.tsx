@@ -13,7 +13,7 @@ export default function DropdownMenu() {
         onClick={() => setOpen(!open)}
         className="font-mono text-green-400 bg-black/50 border border-gray-700 px-2 py-1 rounded hover:bg-black/70 transition"
       >
-        ///
+        {"///"}
       </button>
       <AnimatePresence>
         {open && (
