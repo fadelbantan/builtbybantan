@@ -8,10 +8,10 @@ export default function DropdownMenu() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed top-4 left-4 z-50 text-sm">
+    <div className="fixed top-4 left-4 z-50 text-base">
       <button
         onClick={() => setOpen(!open)}
-        className="font-mono text-green-400 bg-black/50 border border-gray-700 px-2 py-1 rounded hover:bg-black/70 transition"
+        className="font-mono text-green-400 text-2xl hover:text-green-300 transition focus:outline-none"
       >
         {"///"}
       </button>
@@ -21,8 +21,8 @@ export default function DropdownMenu() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.2 }}
-            className="mt-2 bg-black/80 backdrop-blur-lg border border-gray-700 rounded p-2 space-y-1"
+            transition={{ duration: 0.25 }}
+            className="mt-1 bg-black/90 backdrop-blur-md shadow-lg rounded p-2 space-y-1"
           >
             <Link
               href="#home"
