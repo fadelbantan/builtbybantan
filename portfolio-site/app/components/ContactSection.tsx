@@ -3,8 +3,8 @@
 import { motion } from 'framer-motion';
 
 export default function ContactSection() {
-	return (
-		<section className="py-20 px-4">
+        return (
+                <section id="contact" className="py-20 px-4">
 			<div className="max-w-4xl mx-auto">
 				<motion.div
 					initial={{ opacity: 0 }}

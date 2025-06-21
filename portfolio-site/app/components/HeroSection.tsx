@@ -3,8 +3,8 @@
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
-	return (
-		<section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        return (
+                <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
 			<div className="absolute inset-0 bg-gradient-to-r from-green-600/20 to-blue-600/20 opacity-10" />
 			<div className="absolute inset-0">
 				<div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
