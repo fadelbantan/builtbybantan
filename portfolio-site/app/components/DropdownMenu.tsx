@@ -31,6 +31,7 @@ export default function DropdownMenu() {
             >
               |-&gt;./Home
             </Link>
+            <span className="block font-mono text-green-400">|</span>
             <Link
               href="#projects"
               onClick={() => setOpen(false)}
@@ -38,6 +39,7 @@ export default function DropdownMenu() {
             >
               |-&gt;./Projects
             </Link>
+            <span className="block font-mono text-green-400">|</span>
             <Link
               href="#contact"
               onClick={() => setOpen(false)}
