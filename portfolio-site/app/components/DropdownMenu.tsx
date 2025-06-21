@@ -25,7 +25,7 @@ export default function DropdownMenu() {
             className="mt-2 bg-black/80 backdrop-blur-lg border border-gray-700 rounded p-2 space-y-1"
           >
             <Link
-              href="#"
+              href="#home"
               onClick={() => setOpen(false)}
               className="block font-mono text-green-400 hover:text-green-300"
             >
