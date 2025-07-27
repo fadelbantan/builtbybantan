@@ -23,28 +23,4 @@ Live site 👉 [builtbybantan.com](https://builtbybantan.com)
 |----------|---------|------------|---------|------|
 | Next.js  | Tailwind CSS | Framer Motion | Netlify | GitHub |
 
----
 
-## Personalization
-
-To make this template your own, edit:
-
-- Hero section: `app/components/HeroSection.tsx`
-- Contact info: `app/components/ContactSection.tsx`
-- Site metadata: `app/layout.tsx`
-- Resume file: Replace `public/Fadils-CV.pdf` with your own
-
----
-
-##  Installation (Local Dev)
-
-```bash
-# Clone the repo
-git clone https://github.com/fadelbantan/portfolio-site.git
-cd portfolio-site
-
-# Install dependencies
-npm install
-
-# Run locally
-npm run dev
