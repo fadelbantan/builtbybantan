@@ -92,7 +92,7 @@ export default function ContactSection() {
 
 								{/* Discord */}
 								<motion.a
-									href="https://discord.com/users/YOUR_DISCORD_ID"
+									href="https://discord.com/users/m7roo8"
 									whileHover={{ scale: 1.05 }}
 									className="flex items-center gap-3 px-4 py-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors border border-gray-700/50 group"
 								>
