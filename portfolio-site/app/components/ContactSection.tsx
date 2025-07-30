@@ -55,7 +55,7 @@ export default function ContactSection() {
 								<span>Resume Here</span>
 							</motion.a>
 							<p className="text-green-500 mt-8 mb-4">$ ls ./social-links</p>
-							<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+							<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 								<motion.a
 									href="https://github.com/fadelbantan"
 									whileHover={{ scale: 1.05 }}
@@ -84,21 +84,6 @@ export default function ContactSection() {
 									<div>
 										<p className="font-semibold text-gray-200">LinkedIn</p>
 										<p className="text-sm text-gray-400">Fadil Bantan</p>
-									</div>
-								</motion.a>
-								<motion.a
-									href="#"
-									whileHover={{ scale: 1.05 }}
-									className="flex items-center gap-3 px-4 py-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors border border-gray-700/50 group"
-								>
-									<div className="p-2 bg-gray-700/50 rounded-lg group-hover:bg-gray-600/50 transition-colors">
-										<svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 24 24">
-											<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-										</svg>
-									</div>
-									<div>
-										<p className="font-semibold text-gray-200">X</p>
-										<p className="text-sm text-gray-400">@fadelbantan</p>
 									</div>
 								</motion.a>
 							</div>

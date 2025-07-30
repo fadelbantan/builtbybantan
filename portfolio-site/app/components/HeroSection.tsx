@@ -27,27 +27,27 @@ export default function HeroSection() {
 						<h1 className="text-4xl md:text-5xl font-bold mt-2 mb-4">Fadil Bantan</h1>
 						<p className="text-gray-400 mb-2">Software Engineer and Data Analyst</p>
 
-						<p className="text-green-500 mt-4">$ skills --frontend</p>
+						<p className="text-green-500 mt-4">$ skills --frontend 💻 </p>
 						<div className="flex flex-wrap gap-2 mt-2">
-							{['React', 'React Native', 'JavaScript', 'TypeScript', 'UI/UX'].map((skill) => (
+							{['React', 'React Native', 'JavaScript', 'TypeScript', 'UI/UX', "Tailwind"].map((skill) => (
 								<span key={skill} className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
 									{skill}
 								</span>
 							))}
 						</div>
 
-						<p className="text-green-500 mt-4">$ skills --backend</p>
+						<p className="text-green-500 mt-4">$ skills --backend 🛠️ </p>
 						<div className="flex flex-wrap gap-2 mt-2">
-							{['Python', 'Java', 'Firebase', 'Flask'].map((skill) => (
+							{['Python', 'Java', 'Firebase', 'Flask', "Node.js"].map((skill) => (
 								<span key={skill} className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
 									{skill}
 								</span>
 							))}
 						</div>
 
-						<p className="text-green-500 mt-4">$ skills --tools</p>
+						<p className="text-green-500 mt-4">$ skills --tools 🧰</p>
 						<div className="flex flex-wrap gap-2 mt-2">
-							{['Git', 'GitHub', 'Linux'].map((skill) => (
+							{["Docker", 'Git', 'GitHub', 'Linux', "Markdown"].map((skill) => (
 								<span key={skill} className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
 									{skill}
 								</span>
