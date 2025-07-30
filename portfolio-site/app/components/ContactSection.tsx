@@ -3,8 +3,8 @@
 import { motion } from 'framer-motion';
 
 export default function ContactSection() {
-        return (
-                <section id="contact" className="py-20 px-4">
+	return (
+		<section id="contact" className="py-20 px-4">
 			<div className="max-w-4xl mx-auto">
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -31,13 +31,6 @@ export default function ContactSection() {
 									</svg>
 									<span>Jeddah, Saudi Arabia</span>
 								</div>
-								<div className="flex items-center gap-2">
-									<svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-									</svg>
-									<span>Southampton, UK</span>
-								</div>
 							</div>
 
 							<p className="text-green-500 mt-8 mb-2">$ contact --email</p>
@@ -61,8 +54,9 @@ export default function ContactSection() {
 								</svg>
 								<span>Resume Here</span>
 							</motion.a>
-							<p className="text-green-500 mt-8 mb-4">$ ls ./social-links</p>
+							<p className="text-green-500 mb-4">$ ls ./social-links</p>
 							<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+								{/* GitHub */}
 								<motion.a
 									href="https://github.com/fadelbantan"
 									whileHover={{ scale: 1.05 }}
@@ -78,6 +72,8 @@ export default function ContactSection() {
 										<p className="text-sm text-gray-400">@fadelbantan</p>
 									</div>
 								</motion.a>
+
+								{/* LinkedIn */}
 								<motion.a
 									href="https://www.linkedin.com/in/fadil-bantan"
 									whileHover={{ scale: 1.05 }}
@@ -93,19 +89,21 @@ export default function ContactSection() {
 										<p className="text-sm text-gray-400">Fadil Bantan</p>
 									</div>
 								</motion.a>
+
+								{/* Discord */}
 								<motion.a
-									href="#"
+									href="https://discord.com/users/YOUR_DISCORD_ID"
 									whileHover={{ scale: 1.05 }}
 									className="flex items-center gap-3 px-4 py-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors border border-gray-700/50 group"
 								>
 									<div className="p-2 bg-gray-700/50 rounded-lg group-hover:bg-gray-600/50 transition-colors">
-										<svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 24 24">
-											<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+										<svg className="w-5 h-5 text-green-400" viewBox="0 0 24 24" fill="currentColor">
+											<path d="M20.317 4.369a19.791 19.791 0 00-4.885-1.515.07.07 0 00-.075.035 13.815 13.815 0 00-.611 1.255 19.736 19.736 0 00-5.498 0 13.822 13.822 0 00-.617-1.255.07.07 0 00-.075-.035 19.736 19.736 0 00-4.885 1.515.064.064 0 00-.03.027C2.217 9.045 1.64 13.58 2.01 18.057a.082.082 0 00.031.056 19.978 19.978 0 005.993 3.044.07.07 0 00.075-.027c.462-.63.873-1.295 1.226-1.993a.07.07 0 00-.038-.098 13.138 13.138 0 01-1.872-.894.07.07 0 01-.007-.117c.126-.095.252-.192.374-.291a.07.07 0 01.073-.01c3.927 1.788 8.18 1.788 12.061 0a.07.07 0 01.073.009c.122.099.248.196.375.291a.07.07 0 01-.006.118 12.612 12.612 0 01-1.873.893.07.07 0 00-.038.099c.36.698.771 1.362 1.225 1.993a.07.07 0 00.075.028 19.958 19.958 0 006.001-3.044.082.082 0 00.03-.056c.37-4.477-.207-9.012-2.654-13.661a.061.061 0 00-.03-.028zM8.02 15.331c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.418 2.157-2.418 1.21 0 2.176 1.094 2.157 2.418 0 1.334-.955 2.419-2.157 2.419zm7.974 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.418 2.157-2.418 1.21 0 2.176 1.094 2.157 2.418 0 1.334-.947 2.419-2.157 2.419z" />
 										</svg>
 									</div>
 									<div>
-										<p className="font-semibold text-gray-200">X</p>
-										<p className="text-sm text-gray-400">@fadelbantan</p>
+										<p className="font-semibold text-gray-200">Discord</p>
+										<p className="text-sm text-gray-400">m7roo8</p>
 									</div>
 								</motion.a>
 							</div>

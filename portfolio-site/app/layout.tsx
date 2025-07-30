@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
-import DropdownMenu from './components/DropdownMenu';
 
 const geistSans = Geist({
 	variable: '--font-geist-sans',
@@ -16,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
 	title: 'Fadil Bantan - Software Engineer',
 	description:
-		'Welcome to my portfolio! I am a passionate backend developer specializing in building scalable server architectures, robust APIs, and high-performance distributed systems. With expertise in cloud infrastructure and database optimization, I create efficient and reliable backend solutions.',
+		'From REST to React, I build scalable solutions that don’t break on Monday morning.',
 	keywords: [
 		'Backend Developer',
 		'Software Engineer',
@@ -39,8 +38,8 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'Fadil Bantan - Software Engineer',
 		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
+		siteName: 'Build With Bantan',
 		url: 'https://builtbybantan.com',
-		siteName: 'Fadil Bantan - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
@@ -73,16 +72,15 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-        children,
+	children,
 }: Readonly<{
-        children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-        return (
-                <html lang="en">
-                        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-                                <DropdownMenu />
-                                {children}
-                        </body>
-                </html>
-        );
+	return (
+		<html lang="en">
+			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+				{children}
+			</body>
+		</html>
+	);
 }
